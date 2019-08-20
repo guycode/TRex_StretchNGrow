@@ -1,0 +1,112 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - Camp Fit Program",
+  "desc": "Our action-packed Fitness Boot Camp is sure to get the troops in shape!  Each session -led by CERTIFIED fitness instructors",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/camp-fit.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>Camp <span>Fit</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+
+    <main id="main" class="page_content page_class_single flw">
+        
+        <div class="container">
+            <div class="row">
+                <!-- leftview -->
+                <div class="col-md-7 col-lg-7">
+                    <div class="leftview flw">
+                        <div class="gallery">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    <ul class="slides">
+                                        <li><a href="#"><img src="images/camp-fit-lg.jpg" alt="Large Camp Fit Logo"></a></li>
+                                    </ul>
+                                </div>
+                                
+                            </section>
+                        </div>
+                        <div class="letter flw">
+                            <div class="name_">
+                                <h3>Camp Fit</h3>
+                            </div>
+                            <div class="rate_">
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                            </div>
+                            <a data-remodal-target="modal" class="btn_enroll">ENROLL IN THIS CLASS</a>
+                            <div class="content">
+                                <p><strong>We're looking for a few good kids! </strong></p> <br>
+                                <p>Our action-packed Fitness Boot Camp is sure to get the troops in shape! Each session -led by CERTIFIED fitness instructors - involves continuous, vigorous activity that incorporates endurance, strength, flexibility and motor skill development - and FUN!</p> <br>
+                                <p>Get those schoolers off the video games and into regular weekly work-out regimen!</p> <br>
+                                <p>This Military-Style Fun Fitness Class uses energizing music that kids know and love along with fitness equipment and props to add variety and challenge to every class.  We provide 30 minutes of VIGOROUS physical activity while teaching the importance of a healthy lifestyle.</p> <br>
+                                                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end leftview -->
+                <!-- sidebar -->
+                <div class="col-md-5 col-lg-5">
+                    <div class="sidebar flw">
+                        <div class="popular">
+                            <ul class="box">
+                                <li><span class="ion-calendar" style="font-size: 23px;top: 1px;"></span>Offered:<b>Seasonal</b></li>
+                                <li><span class="ion-happy" style="font-size: 23px;top: 2px;"></span>Ages:<b>3-12 <sup>Years</sup></b></li>
+                                <li><span class="ion-ios-clock" style="font-size: 24px;top: 2px;"></span>Class time:<b>30-60 <sup>min </sup></b></li>
+                                <li><span class="ion-person" style="font-size: 32px;top:3px;"></span><b style="font-size: 22px;">Qualified Youth Fitness Coach</b></li>
+                            </ul>
+                        </div>
+                        <div class="nav_ first_">
+                            <h2>Training Camp Days Include</h2>
+                            <ul>
+                                <li>Obstacle Courses</li>
+                                <li>Relay Races</li>
+                                <li>Circuit Training</li>
+                                <li>Cardiovascular Training</li>
+                                <li>Sports Skills Drills</li>
+                                <li>Muscular Strength &amp; Endurance Training</li>
+                                <li>Speed &amp; Agility Drills</li>
+                                <li>Team Building Exercises</li>
+                                <li>Character Education</li>
+                            </ul>
+                            <div class="video-responsive mt-25">
+                                <iframe width="1195" height="672" src="https://www.youtube.com/embed/axIAAxwov4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end sidebar -->
+            </div>
+            
+        </div>
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+    /* Add active class to respective nav item on page load */
+    $(document).ready(function () {
+        $('.nav a:contains("Camp Fit")').closest(".has-dropdown").find('#classes').addClass('set_active');
+    });
+    </script>
+
+</body>
+</html>

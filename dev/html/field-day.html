@@ -1,0 +1,98 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - Field Day Program",
+  "desc": "Field Day | Bring the EXERCITEMENT of Stretch-n-Grow outdoors with this Interactive Festival of FUN!",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/field-day.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>Field <span>Day</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+
+    <main id="main" class="page_content page_class_single flw">
+        
+        <div class="container">
+            <div class="row">
+                <!-- leftview -->
+                <div class="col-md-7 col-lg-7">
+                    <div class="leftview flw">
+                        <div class="gallery">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    <ul class="slides">
+                                        <li><a href="#"><img src="images/field-day-lg.jpg" alt="Large Field Day Logo"></a></li>
+                                    </ul>
+                                </div>
+                                
+                            </section>
+                        </div>
+                        <div class="letter flw">
+                            <div class="name_">
+                                <h3>Field Day</h3>
+                            </div>
+                            <div class="rate_">
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                            </div>
+                            <a data-remodal-target="modal" class="btn_enroll">ENROLL IN THIS CLASS</a>
+                            <div class="content">
+                                <p>Bring the EXERCITEMENT of SNG outdoors with this Interactive Festival of FUN! Stretch-n-Grow brings unique activities to your facility with our Field Day program designed for both preschool and school-aged children!</p> <br>
+                                <p>End the year with a BANG &amp; get an amazing BANG for your BUCK! We provide Run-Through Banners for each class to decorate too!</p><br>
+                                <p>Whether at your facility or the destination location of your choice, your children will enjoy FUN, team-building activities like Relay Races, Obstacles Courses, Potato Sack Races, Tug of War &amp; much more.</p> <br />
+                                <p>Our STELLAR STAFF provides motivation at every station! We encourage teamwork and good sportsmanship.</p><br />
+                                <p>Field Days are available for as few as 35 and as many as 500 children and typically last about 2 hours. (Age appropriate for children 3 - 12)</p><br />
+                                <p>PLUS EVERY child receives an award!</p><br />
+                                <p>We also offer a "Wild-n-Wacky" Waterday!</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end leftview -->
+                <!-- sidebar -->
+                <div class="col-md-5 col-lg-5">
+                    <div class="sidebar flw">
+                        <div class="popular">
+                            <ul class="box">
+                                <li><span class="ion-calendar" style="font-size: 23px;top: 1px;"></span>Offered:<b>Seasonal</b></li>
+                                <li><span class="ion-happy" style="font-size: 23px;top: 2px;"></span>Ages:<b>All <sup>Years</sup></b></li>
+                                <li><span class="ion-ios-clock" style="font-size: 24px;top: 2px;"></span>Class time:<b>90-120 <sup>min </sup></b></li>
+                                <li><span class="ion-person" style="font-size: 32px;top:3px;"></span><b style="font-size: 22px;">Qualified Youth Fitness Coach</b></li>
+                            </ul>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <!-- end sidebar -->
+            </div>
+            
+        </div>
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+    /* Add active class to respective nav item on page load */
+    $(document).ready(function () {
+        $('.nav a:contains("Field Day")').closest(".has-dropdown").find('#classes').addClass('set_active');
+    });
+    </script>
+
+</body>
+</html>

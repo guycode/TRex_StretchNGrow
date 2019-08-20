@@ -1,0 +1,106 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - Contact Us",
+  "desc": "Contact Stretch-n-Grow Colorado for more information about how we can help your kids lead healthier lives",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/contact.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>Contact<span>Us</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+    <main id="main" class="page_content page_contact">
+        <!-- contact page -->
+        <div class="contact_page flw">
+            <div class="maps flw">
+                <div class="point">
+                    <span class="ion-ios-location"></span>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d98173.43322040758!2d-104.97561029399421!3d39.74145260608056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1458713160951" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-8">
+                        <div class="box_mes flw">
+                            <div class="title_l">
+                                <h3>Send us your message</h3>
+                                <h4>• For the best of us •</h4>
+                                <p>Please fill out the form below to inquire about classes or signup.</p>
+                            </div>
+                            <form class="form-validate sky-form form_" id="commentForm" method="post" action="/php/contact-form.php">
+                                <div class="required first">
+                                    <input type="text" id="full-name" name="fullname" placeholder="Enter your name" required>
+                                </div>
+                                <div class="required">
+                                    <input type="text" id="email-address" name="emailaddress" placeholder="Enter your email" required>
+                                </div>
+                                <textarea name="message" id="how-help" name="message" placeholder="How Can We Help You?" cols="30" rows="6"></textarea>
+                                <div class="g-recaptcha" data-sitekey="6LdUfiATAAAAAKS3xuheaMRKBcoABnM79ETKnClw"></div>
+                                <input type="submit" value="SEND MESSAGE">
+                            </form>
+                            <div id="postresult"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="box_info flw">
+                            <div class="spt flw">
+                                <div class="item_spt">
+                                    <div class="icon_ ion-map"></div>
+                                    <dl class="add_">
+                                        <dt><h3>Stretch-n-Grow Colorado</h3></dt>
+                                        <dd><img src="images/sp1.png" alt="shape1"></dd>
+                                        <dt>
+                                            <p>Serving the Colorado Front Range</p>
+                                        </dt>
+                                    </dl>
+                                </div>
+                                <div class="item_spt bg_">
+                                    <div class="icon_ ion-ios-telephone"></div>
+                                    <dl class="add_">
+                                        <dt><h3>Calling support</h3></dt>
+                                        <dd><img src="images/sp2.png" alt="shape1"></dd>
+                                        <dt>
+                                            <p>303.957.7971 - Jillian</p>
+                                        </dt>
+                                    </dl>
+                                </div>
+                                <div class="item_spt">
+                                    <div class="icon_ ion-email-unread"></div>
+                                    <dl class="add_">
+                                        <dt><h3>E-mail live</h3></dt>
+                                        <dd><img src="images/sp1.png" alt="shape1"></dd>
+                                        <dt>
+                                            <p>sngoftherockies@gmail.com</p>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end contact page -->
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+        /* Add active class to respective nav item on page load */
+        $(document).ready(function () {
+            $('.nav a:contains("Contact")').addClass('set_active');
+        });
+    </script>
+
+</body>
+</html>

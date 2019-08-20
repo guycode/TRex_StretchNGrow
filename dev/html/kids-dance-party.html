@@ -1,0 +1,101 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - Kids Dance Party Program",
+  "desc": "The DANCE FLOOR comes to Your DOOR with Stretch-n-Grow Kid's Dance Party!",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/kids-dance-party.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>Kids Dance <span>Party</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+
+    <main id="main" class="page_content page_class_single flw">
+        
+        <div class="container">
+            <div class="row">
+                <!-- leftview -->
+                <div class="col-md-7 col-lg-7">
+                    <div class="leftview flw">
+                        <div class="gallery">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    <ul class="slides">
+                                        <li><a href="#"><img src="images/kids-dance-party-lg.jpg" alt="Large Kids Dance Party Logo"></a></li>
+                                    </ul>
+                                </div>
+                                
+                            </section>
+                        </div>
+                        <div class="letter flw">
+                            <div class="name_">
+                                <h3>Kids Dance Party</h3>
+                            </div>
+                            <div class="rate_">
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                            </div>
+                            <a data-remodal-target="modal" class="btn_enroll">ENROLL IN THIS CLASS</a>
+                            <div class="content">
+                                <p>The DANCE FLOOR comes to Your DOOR with Kid's Dance Party! Your kids will have a BLAST as they learn to move-n-groove and rock-n-roll! With Kid's Dance Party in the house, there's no sitting down!</p> <br>
+                                <p>Kid's Dance Party can be scheduled for your Schoolers weekly or as an In-House Field Trip any time of the year.</p> <br>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end leftview -->
+                <!-- sidebar -->
+                <div class="col-md-5 col-lg-5">
+                    <div class="sidebar flw">
+                        <div class="popular">
+                            <ul class="box">
+                                <li><span class="ion-calendar" style="font-size: 23px;top: 1px;"></span>Offered:<b>Year Round</b></li>
+                                <li><span class="ion-happy" style="font-size: 23px;top: 2px;"></span>Ages:<b>All <sup>Years</sup></b></li>
+                                <li><span class="ion-ios-clock" style="font-size: 24px;top: 2px;"></span>Class time:<b>30-60 <sup>min </sup></b></li>
+                                <li><span class="ion-person" style="font-size: 32px;top:3px;"></span><b style="font-size: 22px;">Qualified Youth Fitness Coach</b></li>
+                            </ul>
+                        </div>
+                        <div class="nav_ first_">
+                            <h2>Highlights of Kids Dance Party</h2>
+                            <ul>
+                                <li>Crazy, FUN and energetic Hip Hop &amp; Funk moves to age-appropriate music</li>
+                                <li>Friendly team competition &ldquo;dance-offs&rdquo; &amp; technique &amp; skill drills</li>
+                                <li>Great for boys &amp; girls, dance builds concentration, coordination, recall &amp; reaction time</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end sidebar -->
+            </div>
+            
+        </div>
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+    /* Add active class to respective nav item on page load */
+    $(document).ready(function () {
+        $('.nav a:contains("Kids Dance Party")').closest(".has-dropdown").find('#classes').addClass('set_active');
+    });
+    </script>
+
+</body>
+</html>

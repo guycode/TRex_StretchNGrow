@@ -1,0 +1,66 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - All Star Programs",
+  "desc": "Stretch-n-Grow is an enrichment program offers a variety of fun activities designed to keep your kids active and healthy.",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/programs.html"
+})
+
+<body>
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>Stretch-n-Grow Programs<span></span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+    <main id="main" class="page_content page_classes">
+        <!-- classes enroll -->
+        <div class="classes_enroll flw">
+            <div class="container">
+                <div class="top_enroll flw">
+                    <div class="left_">
+                        <h1><span>How to</span> Enroll Your Child <span>into a</span> Program?</h1>
+                    </div>
+                    <div class="right_">
+                        <dl class="spt">
+                            <dt>Support <span>9-5 MST Monday-Friday</span></dt>
+                            <dd>303.957.7971</dd>
+                        </dl>
+                        <div class="bub">
+                            <span>JOIN US</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="title_sort flw">
+                    <div class="left_">
+                        <span>There are over 9 classes for your kids!</span>
+                    </div>
+                </div>
+                <!-- section classes -->
+                <div class="item_ flw">
+                    <p>SNG of the Rockies offers summer enrichment programs. Visit our homepage to book your schools <a href="/" title="Summer Enrichment Programs | Visit Our Homepage to Learn More About Our Summer Enrichment Programs">summer enrichment programs</a>.</p>
+                    <br />
+                    @@include('_programs.html')
+                </div>
+                <!-- end section classes -->
+            </div>
+        </div>
+        <!-- end classes enroll -->
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+        /* Add active class to respective nav item on page load */
+        $(document).ready(function () {
+            $('.nav a:contains("All Programs")').closest(".has-dropdown").find('#classes').addClass('set_active');
+        });
+    </script>
+</body>
+</html>

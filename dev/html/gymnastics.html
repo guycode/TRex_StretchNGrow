@@ -1,0 +1,107 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - All Star Gymnastics Program",
+  "desc": "We bring the gym to your school!  All-Star Gymnastics incorporates independent movement and basic social skills",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/gymnastics.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>All Star <span>Gymnastics</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+
+    <main id="main" class="page_content page_class_single flw">
+        
+        <div class="container">
+            <div class="row">
+                <!-- leftview -->
+                <div class="col-md-7 col-lg-7">
+                    <div class="leftview flw">
+                        <div class="gallery">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    <ul class="slides">
+                                        <li><a href="#"><img src="images/all-star-gymnastics-lg.jpg" alt="Large All Star Gymnastics Logo"></a></li>
+                                    </ul>
+                                </div>
+                                
+                            </section>
+                        </div>
+                        <div class="letter flw">
+                            <div class="name_">
+                                <h3>All Star Gymnastics</h3>
+                            </div>
+                            <div class="rate_">
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                            </div>
+                            <a data-remodal-target="modal" class="btn_enroll">ENROLL IN THIS CLASS</a>
+                            <div class="content">
+                                <p>We bring the gym to your school!  All-Star Gymnastics incorporates independent movement and basic social skills while continuing to develop confidence in gross motor skills and beginning tumbling moves and skills.  We believe gymnastics teaches body control and awareness, strength, flexibility, balance, coordination and endurance, all while building self-esteem. These skills can be transferred to future sports and a life-long love of movement.</p> <br>
+                                <p>Most of our schools include All-Star Gymnastics as a fun addition to their weekly curriculum.  This class is also offered as an Elective Enrichment Program at select locations.</p> <br>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end leftview -->
+                <!-- sidebar -->
+                <div class="col-md-5 col-lg-5">
+                    <div class="sidebar flw">
+                        <div class="popular">
+                            <ul class="box">
+                                <li><span class="ion-calendar" style="font-size: 23px;top: 1px;"></span>Offered:<b>Seasonal</b></li>
+                                <li><span class="ion-happy" style="font-size: 23px;top: 2px;"></span>Ages:<b>All <sup>Years</sup></b></li>
+                                <li><span class="ion-ios-clock" style="font-size: 24px;top: 2px;"></span>Class time:<b>30-60 <sup>min </sup></b></li>
+                                <li><span class="ion-person" style="font-size: 32px;top:3px;"></span><b style="font-size: 22px;">Qualified Youth Fitness Coach</b></li>
+                            </ul>
+                        </div>
+                        <div class="nav_ first_">
+                            <h2>Highlights of All Star Gymnastics</h2>
+                            <ul>
+                                <li>Tumbling</li>
+                                <li>Balancing</li>
+                                <li>Forward Skills</li>
+                                <li>Core Strength</li>
+                                <li>Backward Skills Motor Skills</li>
+                                <li>Strength</li>
+                                <li>Flexibility</li>
+                                <li>Endurance</li>
+                                <li>Cooperative Skills</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end sidebar -->
+            </div>
+            
+        </div>
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+    /* Add active class to respective nav item on page load */
+    $(document).ready(function () {
+        $('.nav a:contains("All Star Gymnastics")').closest(".has-dropdown").find('#classes').addClass('set_active');
+    });
+    </script>
+
+</body>
+</html>

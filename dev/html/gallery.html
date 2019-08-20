@@ -1,0 +1,36 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - All Star Gallery of Images",
+  "desc": "View our All Stars in action, a complete gallery of program activities",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/gallery.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>All Star <span>Gallery</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+    <main id="main" class="page_content page_gallery flw">
+        @@include('_gallery.html')
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+        /* Add active class to respective nav item on page load */
+        $(document).ready(function () {
+            $('.nav a:contains("Gallery")').addClass('set_active');
+        });
+    </script>
+</body>
+</html>

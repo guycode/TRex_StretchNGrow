@@ -1,0 +1,93 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - Music Stars Program",
+  "desc": "Enhance your childes exploration with a program that integrates physical movement with songs and instruments.",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/funtastic-fitness.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>Music Stars <span></span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+
+    <main id="main" class="page_content page_class_single flw">
+
+        <div class="container">
+            <div class="row">
+                <!-- leftview -->
+                <div class="col-md-7 col-lg-7">
+                    <div class="leftview flw">
+                        <div class="gallery">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    <ul class="slides">
+                                        <li><a href="#"><img src="images/music-stars-lg.jpg" alt="Large Music Stars" class="img-responsive" /></a></li>
+                                    </ul>
+                                </div>
+
+                            </section>
+                        </div>
+                        <div class="letter flw">
+                            <div class="name_">
+                                <h3>Music Stars Program</h3>
+                            </div>
+                            <div class="rate_">
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                            </div>
+                            <a data-remodal-target="modal" class="btn_enroll">ENROLL IN THIS CLASS</a>
+                            <div class="content">
+                                <p>Music Stars is an exploration and development program filled with songs integrated with physical movement, dramatic play, and exploration of instruments. We incorporate tambourines, triangles, maracas, drums, and more! Our curriculum includes popular early childhood themes to initiate moving, singing, and using our imaginations while developing language and social-emotional skills. Music is a powerful learning tool and makes our hearts HAPPY!&nbsp;</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end leftview -->
+                <!-- sidebar -->
+                <div class="col-md-5 col-lg-5">
+                    <div class="sidebar flw">
+                        <div class="popular">
+                            <ul class="box">
+                                <li><span class="ion-calendar" style="font-size: 23px;top: 1px;"></span>Offered:<b>Year Round</b></li>
+                                <li><span class="ion-happy" style="font-size: 23px;top: 2px;"></span>Ages:<b>1.5-5 <sup>Years</sup></b></li>
+                                <li><span class="ion-ios-clock" style="font-size: 24px;top: 2px;"></span>Class time:<b>30-60 <sup>min </sup></b></li>
+                                <li><span class="ion-person" style="font-size: 32px;top:3px;"></span><b style="font-size: 22px;">Qualified Youth Fitness Coach</b></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- end sidebar -->
+            </div>
+            
+        </div>
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+        /* Add active class to respective nav item on page load */
+        $(document).ready(function () {
+            $('.nav a:contains("Music Stars")').closest(".has-dropdown").find('#classes').addClass('set_active');
+        });
+    </script>
+
+</body>
+</html>

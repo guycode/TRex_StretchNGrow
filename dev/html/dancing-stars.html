@@ -1,0 +1,106 @@
+@@include('_head.html',
+{
+  "title": "Stretch n Grow of Colorado - Dance Stars Program",
+  "desc": "Dance Stars is a Ballet & Creative Dance Program.  Ballet is the foundation for all genres of dance",
+  "author": "TRex Technologies LLC",
+  "conical": "http://www.sngofcolorado.com/dancing-stars.html"
+})
+
+<body>
+
+    @@include('_nav.html')
+
+    <!-- category -->
+    <div class="category_ flw">
+        <div class="container">
+            <div class="left_">
+                <h1>Dance <span>Stars</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- end category -->
+
+    <main id="main" class="page_content page_class_single flw">
+        
+        <div class="container">
+            <div class="row">
+                <!-- leftview -->
+                <div class="col-md-7 col-lg-7">
+                    <div class="leftview flw">
+                        <div class="gallery">
+                            <section class="slider">
+                                <div id="slider" class="flexslider">
+                                    <ul class="slides">
+                                        <li><a href="#"><img src="images/dancing-stars-lg.jpg" alt="Large Dancing Stars Logo"></a></li>
+                                    </ul>
+                                </div>
+                                
+                            </section>
+                        </div>
+                        <div class="letter flw">
+                            <div class="name_">
+                                <h3>Dance Stars</h3>
+                            </div>
+                            <div class="rate_">
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                                <span class="ion-ios-heart"></span>
+                            </div>
+                            <a data-remodal-target="modal" class="btn_enroll">ENROLL IN THIS CLASS</a>
+                            <div class="content">
+                                <p>Dance Stars is a Ballet &amp; Creative Dance Program. Ballet is the foundation for all genres of dance. Our curriculum is designed to teach our children a life-long love of dance and movement. Every class is imaginative and engaging! Your dancer will learn both arm and foot positions as well as 15-20 ballet terms that are incorporated in our performance numbers for each recital!</p> <br>
+                                <p>Save time and money by choosing Dancing Stars over classes at an outside studio. Our niche is serving working families, and we know family time is precious during these years.</p><br>
+                                <p>Dance Stars operates year-round, with no break between seasons. Our Ballet program runs September through May. In the summer, we take a fun departure from classical dance and switch to our All-Star Cheer curriculum&hellip;Hip-Hop + Cheer Rock.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end leftview -->
+                <!-- sidebar -->
+                <div class="col-md-5 col-lg-5">
+                    <div class="sidebar flw">
+                        <div class="popular">
+                            <ul class="box">
+                                <li><span class="ion-calendar" style="font-size: 23px;top: 1px;"></span>Offered:<b>Seasonal</b></li>
+                                <li><span class="ion-happy" style="font-size: 23px;top: 2px;"></span>Ages:<b>All <sup>Years</sup></b></li>
+                                <li><span class="ion-ios-clock" style="font-size: 24px;top: 2px;"></span>Class time:<b>30-60 <sup>min </sup></b></li>
+                                <li><span class="ion-person" style="font-size: 32px;top:3px;"></span><b style="font-size: 22px;">Qualified Youth Fitness Coach</b></li>
+                            </ul>
+                        </div>
+                        <div class="nav_ first_">
+                            <h2>Highlights of Dance Stars</h2>
+                            <ul>
+                                <li>Ballet Technique</li>
+                                <li>Posture, Poise &amp; Grace</li>
+                                <li>Balance &amp; Coordination</li>
+                                <li>Motor Skill enhancement</li>
+                                <li>Flexibility</li>
+                            </ul>
+                            <div class="video-responsive mt-25">
+                                <iframe width="1195" height="672" src="https://www.youtube.com/embed/sFfFzoQByu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end sidebar -->
+            </div>
+            
+        </div>
+    </main>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+    /* Add active class to respective nav item on page load */
+    $(document).ready(function () {
+        $('.nav a:contains("Dance Stars")').closest(".has-dropdown").find('#classes').addClass('set_active');
+    });
+    </script>
+
+</body>
+</html>
