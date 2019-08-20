@@ -5803,7 +5803,7 @@ select {
 }
 .main_sl {
   overflow: hidden;
-  border-top: 5px solid #e8e8e8;
+  border-top: 5px solid #f7be33;
   position: relative;
   margin-bottom: -240px;
 }
@@ -7558,7 +7558,7 @@ select {
 .category_ {
   background: #0a203e;
   min-height: 160px;
-  border-top: 5px solid #0a78f5;
+  border-top: 5px solid #f7be33;
   position: relative;
 }
 .category_ .left_ {
@@ -8662,7 +8662,7 @@ select {
 }
 .page_class_single .sidebar .popular {
   height: 472px;
-  background: #e93f33;
+  background: #f7be33;
   border-radius: 20px;
   padding: 10px;
   margin-bottom: 72px;
