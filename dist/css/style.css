@@ -8,6 +8,20 @@
   background-color: #0a203e;
 }
 
+.fitbutton {
+  height: 35px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #e93f33;
+  color: white;
+  margin-bottom: 60px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
 
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
@@ -3762,6 +3776,8 @@ select,
 textarea {
   font-family: Lato, sans-serif;
   line-height: 1;
+  
+
 }
 h1,
 h2,
@@ -8696,14 +8712,14 @@ select {
 .page_class_single .sidebar .popular .box li:last-child {
   border-bottom: 0!important;
 }
-.page_class_single .sidebar .popular .box li:nth-child(odd) {
+/* .page_class_single .sidebar .popular .box li:nth-child(odd) {
   border-bottom: 1px solid #ea6a25;
   border-top: 1px solid #f67936;
-}
-.page_class_single .sidebar .popular .box li:nth-child(even) {
+} */
+/* .page_class_single .sidebar .popular .box li:nth-child(even) {
   border-top: 1px solid #f67936;
   border-bottom: 1px solid #ea6a25;
-}
+} */
 .page_class_single .sidebar .popular .box li span {
   margin-right: 10px;
   position: relative;
