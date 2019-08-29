@@ -8687,7 +8687,7 @@ select {
   width: 100%;
 }
 .page_class_single .sidebar .popular {
-  height: 472px;
+  /* height: 472px; */
   background: #f7be33;
   border-radius: 20px;
   padding: 10px;
@@ -8701,10 +8701,10 @@ select {
   padding: 14px 30px;
 }
 .page_class_single .sidebar .popular .box li {
-  font-family: "Grand Hotel", cursive;
+  font-family: "Oswald";
   font-size: 24px;
-  height: 84px;
-  line-height: 84px;
+  height: 34px;
+  line-height: 34px;
 }
 .page_class_single .sidebar .popular .box li:first-child {
   border-top: 0!important;
