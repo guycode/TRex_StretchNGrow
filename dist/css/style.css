@@ -4229,8 +4229,8 @@ a:hover {
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
-    position: absolute;
-    left: 472px;
+/*     position: absolute;
+ */    left: 732px;
     z-index: 10;
   }
   .nav,
@@ -8692,10 +8692,11 @@ select {
   border-radius: 20px;
   padding: 10px;
   margin-bottom: 72px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
 }
 .page_class_single .sidebar .popular .box {
   color: #ffffff;
-  border: 3px dotted #f69a6a;
   height: 100%;
   border-radius: 20px;
   padding: 14px 30px;
