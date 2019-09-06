@@ -27,6 +27,21 @@
   text-align: center;
 }
 
+.footinfo {
+  background-color: #5ac1bd;
+  color: white;
+  height: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#info_left {
+  grid-column: auto;
+}
+
+#info_right {
+  grid-column: auto;
+}
 
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
