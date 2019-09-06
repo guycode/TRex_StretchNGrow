@@ -22,6 +22,11 @@
   align-content: center;
 }
 
+#star_div {
+  margin: auto;
+  text-align: center;
+}
+
 
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
@@ -8703,8 +8708,10 @@ select {
 }
 .page_class_single .sidebar .popular .box li {
   font-family: "Oswald";
-  font-size: 24px;
-  height: 34px;
+  font-size: 17px;
+  list-style-type: disc;
+  padding-left: 3%;
+  margin-left: 3%;
   line-height: 34px;
 }
 .page_class_single .sidebar .popular .box li:first-child {
