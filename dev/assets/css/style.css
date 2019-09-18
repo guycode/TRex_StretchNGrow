@@ -8565,8 +8565,8 @@ select {
 }
 .page_class_single .leftview .letter {
   position: relative;
-  border-top: 5px solid #f6f6f6;
-  padding-top: 41px;
+/*   border-top: 5px solid #f6f6f6;
+ */  padding-top: 41px;
 }
 .page_class_single .leftview .letter .shape_lt {
   position: absolute;
