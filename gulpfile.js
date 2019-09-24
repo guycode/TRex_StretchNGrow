@@ -165,11 +165,11 @@ gulp.task('less-watch', ['less'], browserSync.reload);
 
 // Watch Files For Changes
 gulp.task('watch', function () {
-  gulp.watch(path.join(paths.dev + paths.js, '*.js'), ['lint', 'scripts-watch']);
-  gulp.watch(path.join(paths.dev + paths.css, '*.css'), ['css-watch']);
-  gulp.watch(path.join(paths.dev + paths.less, '*.less'), ['less-watch']);
-  gulp.watch([path.join(paths.dev + paths.html, '**/*'), path.join(paths.dev + paths.templates, '*.html')], ['fileinclude-watch']);
-  gulp.watch(path.join(paths.dev + paths.assets, '**/*.*'), ['assets']);
+  gulp.watch(path.join(paths.dev + paths.js, '*.js'), ['lint', 'scripts-watch']).on('change',browserSync.reload);
+  gulp.watch(path.join(paths.dev + paths.css, '*.css'), ['css-watch']).on('change',browserSync.reload);
+  gulp.watch(path.join(paths.dev + paths.less, '*.less'), ['less-watch']).on('change',browserSync.reload);
+  gulp.watch([path.join(paths.dev + paths.html, '**/*'), path.join(paths.dev + paths.templates, '*.html')], ['fileinclude-watch']).on('change',browserSync.reload);
+  gulp.watch(path.join(paths.dev + paths.assets, '**/*.*'), ['assets']).on('change',browserSync.reload);
 });
 
 

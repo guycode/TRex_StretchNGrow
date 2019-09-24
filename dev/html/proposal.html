@@ -14,17 +14,17 @@
     <div class="category_ flw">
         <div class="container">
             <div class="left_">
-                <h1>School Partnership<span></span></h1>
+                <h1>Get A Proposal</h1>
             </div>
         </div>
     </div>
     <!-- end category -->
     <main id="main" class="page_content page_class_single flw" style="padding-bottom: 50px !important;">
-        <h1 style="text-align: center; padding-bottom: 2em; color: #5bc1bd; font-family: Oswald;">We are looking forward
-            to showing you how our fun and engaging classes can engage your kids, excite your parents and enrich your
+        <h1 style="text-align: center; padding-bottom: 2em; color: black;font-weight: lighter; font-family: Oswald;">We are looking forward
+            to showing you how our fun and engaging classes can engage your kids,<br> excite your parents and enrich your
             curriculum.</h1>
 
-        <form style="margin: auto; width:60%;">
+        <form style="margin: auto !important; width: 60% !important">
             <div class="form-group">
                 <label for="exampleFormControlInput1">First Name</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First">
@@ -60,34 +60,39 @@
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">How many todders (18-24 mo) do you have?</label>
-                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone">
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">How many 2's do you have?</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Address">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">How many 3's do you have?</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="City and State">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">How many 4-5's do you have?</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="zip">
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">How many schooler's do you have?</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="City and State">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">What programs do you offer now?</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="zip">
-            </div>
-
-
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlInput1" rows="3"></textarea>
             </div>
         </form>
     </main>
-    </body>
+    @@include('_footer.html')
+
+    @@include('_js.html')
+
+    <script type="text/javascript">
+        /* Add active class to respective nav item on page load */
+        $(document).ready(function () {
+            $('.nav a:contains("All Programs")').closest(".has-dropdown").find('#classes').addClass('set_active');
+        });
+    </script>
+</body>
+</html>
