@@ -43,6 +43,27 @@
   grid-column: auto;
 }
 
+#centeringPackages {
+  align-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.cardz {
+  margin: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 400px !important;
+  text-align: center;
+
+}
+.cardz img {
+  width: 30%;
+}
+
+.circle_logos {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
 	-----------------------------------------------------------

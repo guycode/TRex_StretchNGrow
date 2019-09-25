@@ -42,6 +42,7 @@
 #info_right {
   grid-column: auto;
 }
+
 #centeringPackages {
   align-content: center;
   margin-left: 2%;
