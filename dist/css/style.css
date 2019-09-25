@@ -42,22 +42,27 @@
 #info_right {
   grid-column: auto;
 }
-
 #centeringPackages {
   align-content: center;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .cardz {
   margin: auto;
-  max-width: 200rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 400px !important;
   text-align: center;
 
 }
 .cardz img {
-  width: 49%;
+  width: 30%;
 }
 
+.circle_logos {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
 	-----------------------------------------------------------
