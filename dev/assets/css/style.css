@@ -64,6 +64,23 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.quotes {
+  width: 60%;
+  margin: auto;
+  
+}
+
+.quoters {
+  width: 60%;
+  padding-bottom: 40px !important;
+  margin: auto;
+}
+
+.qp {
+  padding-left: 10px;
+  font-weight: bolder;
+}
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
 	-----------------------------------------------------------
