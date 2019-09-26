@@ -68,7 +68,7 @@
 .quotes {
   width: 60%;
   margin: auto;
-  
+
 }
 
 .quoters {
@@ -80,6 +80,15 @@
 .qp {
   padding-left: 10px;
   font-weight: bolder;
+}
+#benefits_container {
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  float: none !important;
+  margin-left: 100px;
+  margin-right: 100px;
+  
 }
 /* ---------------- TABLE OF CONTENT ----------------------
 	-----------------------------------------------------------
